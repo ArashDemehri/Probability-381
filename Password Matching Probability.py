@@ -18,7 +18,7 @@ def passWordhacking(N):
     for j in range(N):
         randomPassword=key_gen()
         thePassList=[]
-        for i in range(560000):
+        for i in range(80000):
             thePassList.append(key_gen())
         if randomPassword in thePassList:
             success = success+1
